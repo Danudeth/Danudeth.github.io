@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison of OOP in Java, C++, and Python</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>การเปรียบเทียบการเขียนโปรแกรมเชิงวัตถุ (OOP) ใน Java, C++, และ Python</h1>
+
+    <div class="section">
+        <h2>ความเหมือน (Similarities)</h2>
+        <ul>
+            <li>หลักการ OOP: ทั้งสามภาษามีการใช้แนวคิด OOP คล้ายกัน ได้แก่ การใช้คลาส (Class), วัตถุ (Object), การสืบทอด (Inheritance), การห่อหุ้ม (Encapsulation), การพ้องรูป (Polymorphism), และการนามธรรม (Abstraction)</li>
+            <li>การสร้างและใช้งานคลาส: ทั้ง Java, C++, และ Python ใช้โครงสร้างของคลาสและวัตถุในการสร้างและจัดการโค้ดเชิงวัตถุ</li>
+            <li>การสืบทอดและ Polymorphism: ทั้งสามภาษาอนุญาตให้คลาสลูกสามารถสืบทอดคุณสมบัติจากคลาสพ่อแม่และใช้ Polymorphism เพื่อกำหนดรูปแบบของฟังก์ชันที่มีหลายแบบ</li>
+            <li>การสนับสนุนฟังก์ชัน Overloading/Overriding: การเขียนฟังก์ชันที่มีชื่อเหมือนกัน แต่มีพารามิเตอร์หรือการทำงานต่างกันในคลาสย่อย (Overriding)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>ความแตกต่าง (Differences)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Java</th>
+                    <th>C++</th>
+                    <th>Python</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ชนิดข้อมูลแบบ Static และ Strict Typing: ต้องประกาศชนิดข้อมูลทุกครั้งที่ประกาศตัวแปร</td>
+                    <td>ชนิดข้อมูลแบบ Static และ Flexible Typing: ยืดหยุ่นมากกว่า Java</td>
+                    <td>ชนิดข้อมูลแบบ Dynamic Typing: ไม่ต้องประกาศชนิดข้อมูล</td>
+                </tr>
+                <tr>
+                    <td>การจัดการหน่วยความจำด้วย Garbage Collector</td>
+                    <td>นักพัฒนาจัดการหน่วยความจำด้วยตนเองโดยใช้ new และ delete</td>
+                    <td>ใช้ Garbage Collector ในการจัดการหน่วยความจำ</td>
+                </tr>
+                <tr>
+                    <td>ทุกอย่างเป็นคลาส</td>
+                    <td>รองรับการเขียนโปรแกรมทั้งแบบ Procedural และ OOP</td>
+                    <td>ไวยากรณ์เรียบง่าย กระชับ และอ่านง่าย</td>
+                </tr>
+                <tr>
+                    <td>การสนับสนุน Interface สำหรับการทำ Polymorphism</td>
+                    <td>รองรับ Multiple Inheritance</td>
+                    <td>ไม่มีการบังคับใช้ Access Specifiers อย่างชัดเจน</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
